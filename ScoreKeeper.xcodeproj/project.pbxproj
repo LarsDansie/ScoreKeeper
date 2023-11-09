@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		2D163E3D2AF53D9D003AC133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D163E3C2AF53D9D003AC133 /* AppDelegate.swift */; };
 		2D163E3F2AF53D9D003AC133 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D163E3E2AF53D9D003AC133 /* SceneDelegate.swift */; };
-		2D163E412AF53D9D003AC133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D163E402AF53D9D003AC133 /* ViewController.swift */; };
 		2D163E442AF53D9D003AC133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D163E422AF53D9D003AC133 /* Main.storyboard */; };
 		2D163E462AF53D9D003AC133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D163E452AF53D9D003AC133 /* Assets.xcassets */; };
 		2D163E492AF53D9D003AC133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D163E472AF53D9D003AC133 /* LaunchScreen.storyboard */; };
+		2D163E512AF53E0C003AC133 /* ScoreKeeperTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D163E502AF53E0C003AC133 /* ScoreKeeperTableViewController.swift */; };
+		2D163E592AFA9A0D003AC133 /* NewPlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D163E582AFA9A0D003AC133 /* NewPlayerTableViewController.swift */; };
+		2D163E5B2AFAA0F6003AC133 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D163E5A2AFAA0F6003AC133 /* Player.swift */; };
+		2D163E5F2AFBE005003AC133 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D163E5E2AFBE005003AC133 /* PlayerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D163E392AF53D9D003AC133 /* ScoreKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D163E3C2AF53D9D003AC133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D163E3E2AF53D9D003AC133 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D163E402AF53D9D003AC133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D163E432AF53D9D003AC133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D163E452AF53D9D003AC133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D163E482AF53D9D003AC133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D163E4A2AF53D9D003AC133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D163E502AF53E0C003AC133 /* ScoreKeeperTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreKeeperTableViewController.swift; sourceTree = "<group>"; };
+		2D163E582AFA9A0D003AC133 /* NewPlayerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlayerTableViewController.swift; sourceTree = "<group>"; };
+		2D163E5A2AFAA0F6003AC133 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		2D163E5E2AFBE005003AC133 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				2D163E3C2AF53D9D003AC133 /* AppDelegate.swift */,
 				2D163E3E2AF53D9D003AC133 /* SceneDelegate.swift */,
-				2D163E402AF53D9D003AC133 /* ViewController.swift */,
 				2D163E422AF53D9D003AC133 /* Main.storyboard */,
+				2D163E502AF53E0C003AC133 /* ScoreKeeperTableViewController.swift */,
+				2D163E582AFA9A0D003AC133 /* NewPlayerTableViewController.swift */,
+				2D163E5A2AFAA0F6003AC133 /* Player.swift */,
+				2D163E5E2AFBE005003AC133 /* PlayerCell.swift */,
 				2D163E452AF53D9D003AC133 /* Assets.xcassets */,
 				2D163E472AF53D9D003AC133 /* LaunchScreen.storyboard */,
 				2D163E4A2AF53D9D003AC133 /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D163E412AF53D9D003AC133 /* ViewController.swift in Sources */,
+				2D163E5F2AFBE005003AC133 /* PlayerCell.swift in Sources */,
+				2D163E512AF53E0C003AC133 /* ScoreKeeperTableViewController.swift in Sources */,
 				2D163E3D2AF53D9D003AC133 /* AppDelegate.swift in Sources */,
 				2D163E3F2AF53D9D003AC133 /* SceneDelegate.swift in Sources */,
+				2D163E5B2AFAA0F6003AC133 /* Player.swift in Sources */,
+				2D163E592AFA9A0D003AC133 /* NewPlayerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
