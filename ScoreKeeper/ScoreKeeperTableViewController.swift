@@ -64,6 +64,7 @@ class ScoreKeeperTableViewController: UITableViewController {
                 let newIndexPath = IndexPath(row: players.count, section: 0)
                 players.append(player)
                 tableView.insertRows(at: [newIndexPath], with: .automatic)
+                tableView.reloadData()
             }
         }
         Player.savePlayers(players)
